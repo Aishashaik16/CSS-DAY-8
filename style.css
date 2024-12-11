@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    text-align: ;
+}
+
+.container {
+    /* height:450px;
+    border:2px solid black; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.main {
+    border: 2px solid black;
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    /* margin: 10px; */
+    text-align: center;
+    color: white;
+    background-color: red;
+
+}
+
+.main h1,
+.main p {
+    text-align: left;
+}
+
+.main a {
+    text-decoration: none;
+    color: white;
+}
+
+.main:hover a,
+.a1:hover i {
+    color: red;
+    background-color: white;
+}
+
+button {
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(244, 96, 96);
+    border: none;
+    margin: 40px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.container .box {
+    border: 2px solid black;
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    /* margin: 10px; */
+    text-align: center;
+    background-color: white;
+
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: red;
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.box:hover>.icon {
+    background-color: red;
+    color: lightpink;
+    transition: 0.3s ease;
+}
+
+.box .dt {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.box .dd {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 10px;
+
+}
